@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>doctorsignUp</title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <font size="5px" color="gold">Welcome to Apollo web site</font>
+            </center><br>
+            <p align="center">
+                <a href="home.html"> Apollo Home</a> |
+                <a href="#branch">Apollo branch</a> |
+                <a href="contact.html">Apollo contact</a> |
+                <a href="doctor.html">Apollo Doctors</a> |
+                <a href="labs.html">Apollo Labs</a> |
+                <a href="doctorsignup.html">Doctor SingUp</a> |
+                <a href="doctorsign.html">Doctor Singin</a> |
+                <a href="#patientSingUp" target="_blank">patientSingUp</a> |
+                <a href="PatientsinIn.html">patientSingin</a>
+            </p>
+        </header>
+        <hr>
+        <form method="get" name="form4" action="server2">
+            <table align="center" bgcolor="pink" cellspacing="20px">
+                <caption><h2>doctorsignUp form</h2></caption>
+                <tr>
+                    <td>
+                        <label for="text1">FristName</label><br>
+                        <input type="text" id="text1" name="FristName"  required> 
+                    </td>
+                    <td>
+                        <label for="text2">LastName</label><br>
+                        <input type="text" id="text2" name="lastName"  required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="text3">UserName</label><br>
+                        <input type="text" id="text3" name="UserName"  required>
+                    </td>
+                    <td>
+                        <label for="Password1">Password</label><br>
+                        <input type="password" id="password1" name="password"  required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail1">Email Id</label><br>
+                        <input type="email" id="mail1" name="email"  required>
+                    </td>
+                    <td>
+                        <label for="mobil1">Mobile No</label><br>
+                        <input type="number" id="mobile1" name="mobil"  required>
+                    </td>
+                </tr>
+                <tr>
+                 <td>
+                    <label for="special">Speciality</label><br>
+                    <select name="special1" id="special" required>
+                        <option value="">Please select a Speciality</option>
+                        <option value="English">Dr.venky</option>
+                        <option value="Telugu">Dr.harsha</option>
+                        <option value="Hindhi">Dr.kruthika</option>
+                    </select>
+                 </td>
+                 <td>
+                    <label for="gen1">Gender</label><br>
+                    <select name="special1" id="special" required>
+                        <option value="">Please select a Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                 </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gen1">State</label><br>
+                    <select name="Gender" id="genl" required>
+                        <option value="">Please select a State</option>
+                        <option value="telangana">telangana</option>
+                        <option value="Andhrapradhesh">Andhrapradhesh</option>
+                        <option value="odisha">odisha</option>
+                    </select>
+                    </td>
+                    <td>
+                        <label for="coun1">City</label><br>
+                    <select name="Country" id="con1" required>
+                        <option value="">Please select a State</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="kurnool">kurnool</option>
+                        <option value="gadwal">gadwal</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="addr1">Address</label><br>
+                        <input type="text" id="addr1" name="Address" cols="10" rows="5"  required>
+                    </td>
+                    <td>
+                        <label for="pin1">PinCode</label><br>
+                        <input type="number" id="pin1" name="pincode"  required> 
+                    </td>
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </table>
+        </form><hr>
+    <footer>
+        <p align="center">copyright@Apollo hospitals</p>
+    </footer>
+    </body>
+</html>

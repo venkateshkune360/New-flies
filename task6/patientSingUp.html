@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            patient Registration form
+        </title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <font size="5px" color="gold">Welcome to Apollo web site</font>
+            </center><br>
+            <p align="center">
+                <a href="home.html"> Apollo Home</a> |
+                <a href="branch.html">Apollo branch</a> |
+                <a href="contact.html">Apollo contact</a> |
+                <a href="doctor.html">Apollo Doctors</a> |
+                <a href="labs.html">Apollo Labs</a> |
+                <a href="doctorsignup.html">Doctor SingUp</a> |
+                <a href="doctorsign.html">Doctor Singin</a> |
+                <a href="#patientSingUp">patientSingUp</a> |
+                <a href="PatientsinIn.html">patientSingin</a>
+            </p>
+            <hr>
+        </header>
+        <form name="patient" action="server1">
+            <caption><h2 align="center">Patient Registration form</h2></caption>
+            <table align="center"  bgcolor="gray" cellspacing="10px" >
+               <tr>
+                <td>
+                    <label for="id1">Patient Name</label>
+                </td>
+                <td>
+                    <input type="text" id="id1" name="name1" placeholder="Frist" required>
+                    <input type="text" id="id1" name="name1" placeholder="Last" required>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="radio1">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="radio1" name="Gender" value="male" required> Male
+                    <input type="radio" id="radio2" name="Gender" value="female" required> FeMale
+                    <input type="radio" id="radio3" name="Gender" value="Other" required> Others
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="number">Phone</label>
+                </td>
+                <td>
+                    <input type="number" id="number" name="phone" placeholder="#########" required>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="date">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date1" placeholder="DD-MM-YYYY" required>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="radio1">Marital Status</label>
+                </td>
+                <td>
+                    <input type="radio" id="radio4" name="Status" value="single" required> Single
+                    <input type="radio" id="radio5" name="Status" value="married" required> Married
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="Address">Patient's Address</label>
+                </td>
+                <td> 
+                    <input type="text" id="Address" name="Address1" placeholder="Street Address" required><br>
+                    <input type="text" id="Address1" name="Address1" placeholder="City" required><br>
+                    <input type="text" id="Address2" name="Address1" placeholder="state" required>  
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="checkbox1">Past medical history</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="checkbox1" name="health" value="Anemia" required>Anemia<br><br>
+                    <input type="checkbox" id="checkbox2" name="health" value="Asthma" required>Asthma<br><br>
+                    <input type="checkbox" id="checkbox3" name="health" value="Bronchitis" required>Bronchitis<br><br>
+                    <input type="checkbox" id="checkbox4" name="health" value="CheckenFox" required>CheckenFox<br><br>
+                    <input type="checkbox" id="checkbox5" name="health" value="Diabets" required>Diabets<br><br>
+                    <input type="checkbox" id="checkbox6" name="health" value="Ulcer" required>Ulcer<br><br>
+                    <input type="checkbox" id="checkbox7" name="health" value="others" required>Others<br><br>
+                </td>
+               </tr>
+               <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+               </tr>
+            </table>
+        </form><hr>
+        <footer>
+            <p align="center">copyright@Apollo hospitals</p>
+        </footer>
+    </body>
+</html>
